@@ -45,6 +45,9 @@ if "!DOTNET_INSTALLED!"=="true" (
         curl https://download.visualstudio.microsoft.com/download/pr/bd1c2e28-44dd-47bb-a55c-aedd1f3e8cc4/0a15fac821e64cf7b8ec6d99e54e0997/windowsdesktop-runtime-8.0.8-win-x86.exe --output windowsdesktop-runtime-8.0.8-win-x86.exe
         windowsdesktop-runtime-8.0.8-win-x86.exe /install /quiet /norestart
     )
+    echo .NET Desktop Runtime version 8 is now installed.
+    echo You can close this window.
+    pause >nul & exit /b
 )
 
 endlocal
